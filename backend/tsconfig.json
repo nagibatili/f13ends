@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    /* Базовые настройки */
+    "target": "es2020", // Целевая версия ECMAScript. Рекомендуется использовать современную версию.
+    "module": "NodeNext", // Система модулей. commonjs подходит для Node.js, esnext для браузеров и современных сборщиков.
+    "lib": [
+      // Библиотеки, предоставляющие определения типов для окружения.
+      "ESNext"
+    ],
+    "allowJs": true, // Разрешаем использование JavaScript файлов в проекте. Полезно для постепенной миграции на TypeScript.
+    "checkJs": true, // Проверяем JavaScript файлы на наличие ошибок. Работает только при "allowJs": true.
+    "outDir": "./build", // Каталог для скомпилированных файлов.
+    "rootDir": "./src", // Каталог с исходными файлами.
+
+    /* Строгие проверки типов */
+    "strict": true, // Включает все строгие проверки. Рекомендуется всегда включать.
+    "noImplicitAny": true, // Запрещает неявно типизированные переменные.
+    "strictNullChecks": true, // Строгая проверка на null и undefined.
+    "strictFunctionTypes": true, // Строгая проверка типов функций.
+    "strictBindCallApply": true, // Строгая проверка bind, call и apply.
+    "noImplicitThis": true, // Запрещает неявное использование this.
+    "alwaysStrict": true, // Всегда использовать строгий режим ("use strict").
+
+    /* Дополнительные проверки */
+    "noUnusedLocals": true, // Предупреждать о неиспользуемых локальных переменных.
+    "noUnusedParameters": true, // Предупреждать о неиспользуемых параметрах функций.
+    "noFallthroughCasesInSwitch": true, // Предупреждать о пропущенных break в switch.
+    "noImplicitReturns": true, // Требовать явный возврат значения из функций.
+    "esModuleInterop": true, // Обеспечивает совместимость с импортом CommonJS модулей в ES модулях.
+    "forceConsistentCasingInFileNames": true // Требовать согласованное именование файлов (регистр).
+
+    /* Экспериментальные возможности (использовать с осторожностью)*/
+    // "experimentalDecorators": true,
+    // "emitDecoratorMetadata": true
+  },
+  "include": [
+    // Файлы, которые будут включены в компиляцию.
+    "src/**/*"
+  ],
+  "exclude": [
+    // Файлы, которые будут исключены из компиляции.
+    "node_modules",
+    "**/*.test.ts" // Исключаем файлы с тестами
+  ]
+}

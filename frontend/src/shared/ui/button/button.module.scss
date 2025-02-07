@@ -1,0 +1,16 @@
+.root {
+    min-width: 220px;
+    padding: 0px 16px;
+    height: 72px;
+    background-color: #eca413;
+
+    border-radius: 10px;
+
+    &:hover {
+        background-color: #f6c155;
+    }
+
+    &:focus {
+        background-color: #f6c155;
+    }
+}
