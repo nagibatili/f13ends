@@ -1,1 +1,0 @@
-export {UserInventoryPage} from "./ui/user-inventory.tsx";
