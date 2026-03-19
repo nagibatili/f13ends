@@ -291,7 +291,11 @@ CREATE TABLE categories (
 
 ## 📸 Скриншоты
 
-(Здесь можно добавить скриншоты интерфейса)
+<img width="1920" height="909" alt="image" src="https://github.com/user-attachments/assets/bdc6120c-e667-4c3b-9059-74c8a0952265" />
+<img width="1920" height="818" alt="image" src="https://github.com/user-attachments/assets/8b90f621-53de-4a0f-afa9-fb55223c92a9" />
+<img width="1920" height="863" alt="image" src="https://github.com/user-attachments/assets/fb377681-e9aa-493b-80db-6b7bc089fe9c" />
+
+
 
 ## 👥 Команда
 
