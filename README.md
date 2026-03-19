@@ -310,10 +310,10 @@ CREATE TABLE categories (
 
 
 
-## **🚨 Ошибка
+## 🚨 Ошибка
 (venv) PS C:\Users\User\Desktop\Fr13nds\student-help-backend> pip install -r requirements.txt
 Fatal error in launcher: Unable to create process using '"C:\Users\Admin\Desktop\Fr13nds\student-help-backend\venv\Scripts\python.exe"
-"C:\Users\User\Desktop\Fr13nds\student-help-backend\venv\Scripts\pip.exe" install -r requirements.txt': ?? ??????? ????? ????????? ????.**
+"C:\Users\User\Desktop\Fr13nds\student-help-backend\venv\Scripts\pip.exe" install -r requirements.txt': ?? ??????? ????? ????????? ????.
 ```bash
 # Выходим из текущего виртуального окружения
 deactivate
