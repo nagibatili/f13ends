@@ -301,3 +301,22 @@ CREATE TABLE categories (
 - **Backend-разработчик** - отвечает за сервер, базу данных, API
 
 **Student Help** - помогаем друг другу! 🎓
+
+
+
+**Ошибка (venv) PS C:\Users\User\Desktop\Fr13nds\student-help-backend> pip install -r requirements.txt
+Fatal error in launcher: Unable to create process using '"C:\Users\Admin\Desktop\Fr13nds\student-help-backend\venv\Scripts\python.exe"
+"C:\Users\User\Desktop\Fr13nds\student-help-backend\venv\Scripts\pip.exe" install -r requirements.txt': ?? ??????? ????? ????????? ????.**
+```bash
+# Выходим из текущего виртуального окружения
+deactivate
+
+# Удаляем старую папку venv
+Remove-Item -Recurse -Force venv
+
+# Создаем новое виртуальное окружение
+py -m venv venv
+
+# Активируем его (сначала пробуем через bat файл)
+venv\Scripts\activate
+```
